@@ -28,16 +28,16 @@ function App() {
           
             <Switch>
               <Route exact path="/">
-                <Recipes/>
+                {/* <Recipes/> */}
               </Route>
               <Route path="/cheese">
-                <Cheese/>
+                {/* <Cheese/> */}
               </Route>
               <Route path="/pasta">
-                <Pasta/>
+                {/* <Pasta/> */}
               </Route>
               <Route path="/sauces">
-                <Sauce/>
+                {/* <Sauce/> */}
               </Route>
              
             </Switch>
