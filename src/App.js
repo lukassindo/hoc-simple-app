@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {RecipesList, CheeseList, PastaList, SauceList} from './Reload';
+
 
 function App() {
   return (
@@ -28,16 +30,16 @@ function App() {
           
             <Switch>
               <Route exact path="/">
-                {/* <Recipes/> */}
+                <RecipesList/>
               </Route>
               <Route path="/cheese">
-                {/* <Cheese/> */}
+                <CheeseList/>
               </Route>
               <Route path="/pasta">
-                {/* <Pasta/> */}
+                <PastaList/>
               </Route>
               <Route path="/sauces">
-                {/* <Sauce/> */}
+                <SauceList/>
               </Route>
              
             </Switch>
